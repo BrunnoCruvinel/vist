@@ -1,4 +1,6 @@
 # Logs
+gulpfile.js
+package.json
 logs
 *.log
 npm-debug.log*
@@ -56,4 +58,3 @@ typings/
 
 # dotenv environment variables file
 .env
-

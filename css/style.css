@@ -1,0 +1,444 @@
+/*UTILS*/
+
+*, a, h3 {
+  letter-spacing: 7px;
+  color: #222;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  clear: both;
+  color: #888;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+.cm {
+  color: #9bc412;
+}
+
+.cs {
+  color: #222222;
+}
+
+.bm {
+  background-color: #9bc412;
+  colo: #222222;
+}
+
+.bbd {
+  border-bottom: thin solid #eee;
+}
+
+.lm {
+  border: thin solid #9bc412;
+}
+
+.p3 {
+  padding: 3rem;
+}
+
+.p5 {
+  padding: 5rem;
+}
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+
+/*COMPONENTS*/
+
+button {
+  background-color: #fff;
+  font-size: 24px;
+  border: none;
+  border-bottom: thin solid #9bc412;
+  border-top: thin solid #9bc412;
+  color: #9bc412;
+  font-family: 'Bellefair', serif;
+  padding: 10px 30px;
+}
+
+button:hover, button:hover a {
+  background-color: #9bc412;
+  color: #fff;
+}
+
+input, textarea {
+  padding: 3%;
+  width: 97%;
+  font-size: 16px;
+}
+
+
+/*HEADER*/
+
+#bar {
+  padding: 20px 0px;
+}
+
+#logo {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#social i {
+  margin-top: 35px;
+  color: #ddd;
+  font-size: 20px;
+}
+
+#social i:hover {
+  color: #9bc412;
+}
+
+
+/*MENU MOBILE*/
+
+.mais span {
+  margin-top: 30px;
+  font-size: 35px;
+  color: #9bc412;
+}
+
+
+/*MENU*/
+
+.menu {
+  width: 100%;
+}
+
+.menu li {
+  padding: 20px 0px;
+  float: left;
+}
+
+.menu li a {
+  letter-spacing: 12px;
+  font-size: 18px;
+  font-size: 15px;
+}
+
+.menu li:last-of-type {
+  margin-right: 0px !important;
+}
+
+.menu li a:hover {
+  font-weight: bold;
+  color: #9bc412;
+}
+
+.menu li:hover {
+  display: block;
+}
+
+
+/*BANNER*/
+
+.banner {
+  width: 100%;
+  height: 435px;
+  overflow: hidden;
+}
+
+.banner div {
+  width: 108%;
+  height: 400px;
+  overflow: hidden;
+  margin-left: -4%;
+  border-radius: 0px 0px 800% 800%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*NEWS*/
+
+.news {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: -350px;
+  text-align: center;
+  box-shadow: 0px 0px 15px #999;
+}
+
+.news h3, .esportiva h4 {
+  line-height: 42px;
+  border-bottom: thin solid #ddd;
+  border-top: thin solid #ddd;
+  padding: .5rem;
+  color: #888;
+}
+
+
+/*BLOG*/
+
+.title {
+  margin-top: -7rem;
+}
+
+.title h2 {
+  color: #f5f5f5;
+  font-size: 80px;
+  position: absolute;
+  z-index: -1;
+  margin-top: -10px;
+  letter-spacing: 30px;
+  line-height: 105px;
+}
+
+.title h3 {
+  line-height: 45px;
+  font-weight: 500;
+  color: #9bc412;
+  letter-spacing: 12px;
+  font-weight: 700;
+}
+
+.postThumb {
+  margin-top: 5rem;
+}
+
+.postThumb img {
+  float: left;
+  margin-bottom: 2rem;
+}
+
+.postThumb h4 {
+  width: 65%;
+  height: 240px;
+  float: right;
+  padding: 2rem;
+  background: rgba(144, 191, 1, .8);
+  margin-top: -300px;
+  overflow: hidden;
+  color: #fff;
+  line-height: 35px;
+}
+
+.postText {
+  padding: 3.5rem;
+}
+
+.postText h5 {
+  line-height: 40px;
+  font-weight: 700;
+  color: #444;
+  padding-bottom: 2.5rem;
+  border-bottom: thin solid #ddd;
+}
+
+.more {
+  border-bottom: thin solid #ddd;
+  padding-bottom: 1.5rem;
+}
+
+
+/*SERVICOS*/
+
+.services .title {
+  margin-top: 7rem;
+}
+
+.services .title h2 {
+  margin-top: -55px;
+}
+
+
+/*ESPORTIVA*/
+
+.esportiva {
+  margin-top: 7rem;
+}
+
+.esportiva h3 {
+  padding: 2rem 0px;
+}
+
+.esportiva .col-md-12 {
+  padding-bottom: 4rem;
+}
+
+.social-sidebar {
+  margin-top: 2rem;
+}
+
+.social-sidebar a i {
+  cursor: pointer;
+  color: #9bc412;
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+
+/*DEPOIMENTOS*/
+
+.depoimentos {
+  background-color: #f5f5f5;
+  margin-top: 5rem;
+  padding: 8rem;
+}
+
+.depoimentos .title {
+  margin-top: 5rem;
+  clear: both;
+}
+
+.depoimentos .title h3 {
+  z-index: 99;
+  position: absolute;
+}
+
+.depoimentos .title h2 {
+  z-index: 0;
+  color: #eee;
+}
+
+.avatar {
+  margin: 25px auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid #9bc412;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.depoimento h3 {
+  margin: 30px auto;
+  letter-spacing: 14px;
+  width: 45%;
+  color: #444;
+  padding: 1.5rem;
+  border-bottom: thin solid #ddd;
+  border-top: thin solid #ddd;
+  font-family: 'Bellefair', serif;
+}
+
+.depoimento p {
+  width: 50%;
+  margin: auto;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.controls {
+  margin-top: -10%;
+  width: 75%;
+  left: 50%;
+  margin-left: -37.5%;
+  position: absolute;
+}
+
+.controls i {
+  font-size: 50px;
+  font-weight: 300;
+  color: #9bc412;
+  cursor: pointer;
+}
+
+
+/*PERFIL*/
+
+.perfil {
+  margin-top: 12rem;
+}
+
+.perfil .title p {
+  margin-top: 7rem;
+}
+
+.crn {
+  font-weight: bold;
+  font-size: 16px;
+  color: #666;
+}
+
+.saiba {
+  font-size: 13px;
+  color: #9bc412;
+}
+
+
+/*NEWSLETTER*/
+
+.newsletter {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 10rem;
+  box-shadow: 0px -5px 15px #ccc;
+}
+
+.newsletter h2 {
+  padding: 2rem;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 12px;
+  line-height: 1.5em;
+}
+
+.newsletter input, .newsletter button {
+  margin-top: 6rem;
+}
+
+.lc {
+  border-top: 2px solid #9bc412;
+  border-bottom: 2px solid #9bc412;
+}
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #222;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer p {
+  color: #fff;
+  font-size: 12px;
+}
+
+footer .fa {
+  font-size: 20px;
+}
+
+footer h3 {
+  color: #fff;
+}
+
+footer input, footer textarea {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  border: thin solid #fff;
+  background-color: #222;
+}
+
+footer button {
+  width: 100%;
+  font-size: 14px;
+  background-color: #222;
+}
+
+footer .social a i {
+  margin-top: 3rem;
+  color: #fff;
+  font-size: 25px;
+  margin-right: 1rem;
+}
+
+footer .social a i:hover {
+  color: #9bc412;
+}
+
+#codde{
+  margin-top: 12rem;
+}
