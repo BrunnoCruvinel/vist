@@ -1,7 +1,5 @@
 <?php require "header.php"; ?>
 
-  <main>
-
     <!-- BANNER -->
     <section class="banner">
       <div style="background-image: url('img/banner.png')"></div>
@@ -170,6 +168,6 @@
 
 
 
-  </main>
+
 
   <?php require "footer.php"; ?>

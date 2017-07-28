@@ -48,6 +48,9 @@ p {
 .mt3 {
   margin-top: 3rem;
 }
+.mt5 {
+  margin-top: 5rem;
+}
 
 
 /*COMPONENTS*/
@@ -166,7 +169,7 @@ input, textarea {
   box-shadow: 0px 0px 15px #999;
 }
 
-.news h3, .esportiva h4 {
+.news h3, .esportiva h4, .consulta h4 {
   line-height: 42px;
   border-bottom: thin solid #ddd;
   border-top: thin solid #ddd;
@@ -391,6 +394,38 @@ input, textarea {
 .lc {
   border-top: 2px solid #9bc412;
   border-bottom: 2px solid #9bc412;
+}
+
+
+/*CONSULTA*/
+.page .title{
+  margin-top: 5rem;
+}
+.box{
+  margin: auto;
+  border: 15px solid  #9bc412;
+  box-shadow: 0px 0px 10px #ccc;
+  width: 90%;
+  height: 300px;
+}
+.box h4{
+  margin:auto;
+  width: 80%;
+  margin-top: 55px;
+  letter-spacing: 10px;
+}
+.box h4 b{
+  letter-spacing: 11px;
+}
+
+.box strong{
+  font-size: 18px;
+}
+
+/*NUTRICAO*/
+.nutricao h4{
+  line-height: 35px;
+  font-size: 26px;
 }
 
 

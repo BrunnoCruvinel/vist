@@ -20,7 +20,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="css/mediaqueries.css">
 
 
 </head>
@@ -33,7 +33,7 @@
       <div class="container">
         <div id="bar" class="row">
           <div class="col-md-2 col-sm-4 col-xs-6">
-            <img id="logo" src="img/logo.png">
+            <a href="/"><img id="logo" src="img/logo.png"></a>
           </div>
           <div class="col-md-10 col-sm-8 col-xs-6 text-right">
             <div id="social" class="hidden-sm hidden-xs">
@@ -53,18 +53,22 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <nav class="col-md-12 col-sm-12 col-xs-12 np">
-          <ul class="menu">
-            <li><a href="consulta.php">Consulta</a></li>
-            <li><a href="nutricao.php">Nutrição</a></li>
-            <li><a href="priscilavist.php">Priscila Vist</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="contato.php">Contato</a></li>
-          </ul>
-        </nav>
+    <div class="bbd">
+
+      <div class="container">
+        <div class="row">
+          <nav class="col-md-12 col-sm-12 col-xs-12 np">
+            <ul class="menu">
+              <li><a href="consulta.php">Consulta</a></li>
+              <li><a href="nutricao.php">Nutrição</a></li>
+              <li><a href="priscilavist.php">Priscila Vist</a></li>
+              <li><a href="blog.php">Blog</a></li>
+              <li><a href="contato.php">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-
   </header>
+
+  <main>

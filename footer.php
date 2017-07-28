@@ -1,3 +1,4 @@
+</main>
 
 <!-- NEWSLETTER -->
 <section class="newsletter">
