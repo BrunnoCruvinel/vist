@@ -21,7 +21,7 @@
 
     </div>
 
-    <?php require "sidebar.php" ?>
+    <?php require "sidebar-paginas.php" ?>
   </div>
 </section>
 

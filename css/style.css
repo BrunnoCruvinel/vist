@@ -48,8 +48,13 @@ p {
 .mt3 {
   margin-top: 3rem;
 }
+
 .mt5 {
   margin-top: 5rem;
+}
+
+.clear {
+  clear: both;
 }
 
 
@@ -240,6 +245,77 @@ input, textarea {
   padding-bottom: 1.5rem;
 }
 
+.blog .postThumb, .blog .postText {
+  padding-bottom: 3.5rem;
+}
+
+.blog .postText {
+  border-top: thin solid #ddd;
+  padding: 1rem;
+}
+
+.blog .postText h3 {
+  line-height: 5rem;
+  font-weight: 400;
+}
+
+.blog .postText h3:hover, .postText h5:hover, .saw li a:hover{
+  color: #9bc412;
+  cursor: pointer;
+}
+
+.loading {
+  width: 65%;
+  margin: auto;
+  border-top: thin solid #9bc412;
+  border-bottom: thin solid #9bc412;
+  color: #9bc412;
+  padding: 10px 0px;
+}
+
+
+/*SIDEBAR*/
+
+#s {
+  padding: 1.5rem;
+  float: left;
+  border: none;
+  border-top: thin solid #ddd;
+  border-bottom: thin solid #ddd;
+}
+
+#search {
+  border: none;
+  float: right;
+  background: none;
+  margin-top: -4.2rem;
+  margin-right: 1rem;
+}
+
+#search i {
+  color: #ddd;
+  font-size: 30px;
+}
+
+.saw li {
+  border-bottom: thin solid #ddd;
+  padding: 3rem 0rem;
+}
+
+.saw li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.saw li:last-of-type {
+  border: none;
+}
+
+.sidebar-blog .news {
+  margin-top: 5rem;
+}
+
 
 /*SERVICOS*/
 
@@ -277,75 +353,6 @@ input, textarea {
   font-size: 35px;
 }
 
-
-/*DEPOIMENTOS*/
-
-.depoimentos {
-  background-color: #f5f5f5;
-  margin-top: 5rem;
-  padding: 8rem;
-}
-
-.depoimentos .title {
-  margin-top: 5rem;
-  clear: both;
-}
-
-.depoimentos .title h3 {
-  z-index: 99;
-  position: absolute;
-}
-
-.depoimentos .title h2 {
-  z-index: 0;
-  color: #eee;
-}
-
-.avatar {
-  margin: 25px auto;
-  width: 85px;
-  height: 85px;
-  border-radius: 100px;
-  overflow: hidden;
-  border: 2px solid #9bc412;
-}
-
-.avatar img {
-  width: 100%;
-}
-
-.depoimento h3 {
-  margin: 30px auto;
-  letter-spacing: 14px;
-  width: 45%;
-  color: #444;
-  padding: 1.5rem;
-  border-bottom: thin solid #ddd;
-  border-top: thin solid #ddd;
-  font-family: 'Bellefair', serif;
-}
-
-.depoimento p {
-  width: 50%;
-  margin: auto;
-  font-style: italic;
-  font-size: 14px;
-}
-
-.controls {
-  margin-top: -10%;
-  width: 75%;
-  left: 50%;
-  margin-left: -37.5%;
-  position: absolute;
-}
-
-.controls i {
-  font-size: 50px;
-  font-weight: 300;
-  color: #9bc412;
-  cursor: pointer;
-}
 
 
 /*PERFIL*/
@@ -398,32 +405,38 @@ input, textarea {
 
 
 /*CONSULTA*/
-.page .title{
+
+.page .title {
   margin-top: 5rem;
 }
-.box{
+
+.box {
   margin: auto;
-  border: 15px solid  #9bc412;
+  border: 15px solid #9bc412;
   box-shadow: 0px 0px 10px #ccc;
   width: 90%;
   height: 300px;
 }
-.box h4{
-  margin:auto;
+
+.box h4 {
+  margin: auto;
   width: 80%;
   margin-top: 55px;
   letter-spacing: 10px;
 }
-.box h4 b{
+
+.box h4 b {
   letter-spacing: 11px;
 }
 
-.box strong{
+.box strong {
   font-size: 18px;
 }
 
+
 /*NUTRICAO*/
-.nutricao h4{
+
+.nutricao h4 {
   line-height: 35px;
   font-size: 26px;
 }
@@ -474,6 +487,6 @@ footer .social a i:hover {
   color: #9bc412;
 }
 
-#codde{
+#codde {
   margin-top: 12rem;
 }

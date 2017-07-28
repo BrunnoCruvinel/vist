@@ -1,0 +1,84 @@
+#depContainer {
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+  position: relative;
+}
+
+.depMask {
+  transition: all ease-out 300ms;
+}
+
+.dep {
+  float: left;
+}
+
+
+/*DEPOIMENTOS*/
+
+.depoimentos {
+  background-color: #f5f5f5;
+  margin-top: 5rem;
+  padding: 8rem;
+}
+
+.depoimentos .title {
+  margin-top: 5rem;
+  clear: both;
+}
+
+.depoimentos .title h3 {
+  position: absolute;
+}
+
+.depoimentos .title h2 {
+  z-index: 0;
+  color: #eee;
+}
+
+.avatar {
+  margin: 25px auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  overflow: hidden;
+  border: 2px solid #9bc412;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.depoimento h3 {
+  margin: 30px auto;
+  letter-spacing: 14px;
+  width: 45%;
+  color: #444;
+  padding: 1.5rem;
+  border-bottom: thin solid #ddd;
+  border-top: thin solid #ddd;
+  font-family: 'Bellefair', serif;
+}
+
+.depoimento p {
+  width: 50%;
+  margin: auto;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.controls {
+  margin-top: 15%;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  position: absolute;
+  z-index: 999;
+}
+
+.controls i {
+  font-size: 50px;
+  font-weight: 300;
+  color: #9bc412;
+  cursor: pointer;
+}

@@ -15,10 +15,11 @@
 
   <!-- CSS -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bellefair:bold" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/depoimentos.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
 
