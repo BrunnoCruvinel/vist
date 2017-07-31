@@ -17,7 +17,7 @@
       <!-- POST COM FOTO -->
       <div class="col-md-12 postThumb">
         <img src="img/blog.png">
-        <a href="#">
+        <a href="single.php">
           <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. laboris nisi ut aliquip ex ea commodo consequat.</h4>
         </a>
         <p>
@@ -28,7 +28,7 @@
       <!-- POST SEM FOTO -->
       <div class="col-md-12 np">
         <div class="postText">
-          <a href="#">
+          <a href="single.php">
             <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h3>
           </a>
           <p>
@@ -41,7 +41,7 @@
       <!-- POST SEM FOTO -->
       <div class="col-md-12 np">
         <div class="postText">
-          <a href="#">
+          <a href="single.php">
             <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </h3>
           </a>
           <p>
